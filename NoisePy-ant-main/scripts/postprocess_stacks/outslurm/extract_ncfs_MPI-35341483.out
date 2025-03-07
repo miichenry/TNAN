@@ -1,0 +1,25 @@
+comp=ZZ, dtype=Allstack_pws, datadir=/srv/beegfs/scratch/shares/cdff/DPM/Processing/STACK_SS_1bit_no_bad_stations, output_fname=/srv/beegfs/scratch/shares/cdff/DPM/Postprocessing/DPM_ncfs_Allstack_pws_ZZ.npz
+Number of files: 21528
+1/21528
+1001/21528
+2001/21528
+3001/21528
+4001/21528
+5001/21528
+6001/21528
+7001/21528
+8001/21528
+9001/21528
+10001/21528
+11001/21528
+12001/21528
+13001/21528
+14001/21528
+15001/21528
+16001/21528
+17001/21528
+18001/21528
+19001/21528
+20001/21528
+21001/21528
+Time elapsed to read data: 1591

@@ -1,0 +1,7 @@
+to create an empty enviroment with the name = my_enviroment_name
+conda create - n my_environment_name 
+
+To create a new conda environment with name = envname and all the packages defined in a .yml file:
+conda env create -f environment_envname.yml
+
+(NB. enviroment_noisepy.yml = for ANT processing)

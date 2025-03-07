@@ -1,0 +1,2 @@
+To create a new conda environment with all the packages defined in a .yml file:
+conda create my_environment_name -f environment_file.yml

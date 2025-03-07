@@ -1,0 +1,125 @@
+comp=ZZ, dtype=Allstack_linear, datadir=/srv/beegfs/scratch/shares/cdff/DPM/Processing/STACK_no_bad_stations_chan_corrected, output_fname=/srv/beegfs/scratch/shares/cdff/DPM/Postprocessing/ncfs_Allstack_linear_ZZ.npz
+Number of files: 21321
+1/21321
+1001/21321
+2001/21321
+3001/21321
+4001/21321
+5001/21321
+6001/21321
+7001/21321
+8001/21321
+9001/21321
+10001/21321
+11001/21321
+12001/21321
+13001/21321
+14001/21321
+15001/21321
+16001/21321
+17001/21321
+18001/21321
+19001/21321
+20001/21321
+21001/21321
+Time elapsed to read data: 456
+comp=RR, dtype=Allstack_linear, datadir=/srv/beegfs/scratch/shares/cdff/DPM/Processing/STACK_no_bad_stations_chan_corrected, output_fname=/srv/beegfs/scratch/shares/cdff/DPM/Postprocessing/ncfs_Allstack_linear_RR.npz
+Number of files: 21321
+1/21321
+1001/21321
+2001/21321
+3001/21321
+4001/21321
+5001/21321
+6001/21321
+7001/21321
+8001/21321
+9001/21321
+10001/21321
+11001/21321
+12001/21321
+13001/21321
+14001/21321
+15001/21321
+16001/21321
+17001/21321
+18001/21321
+19001/21321
+20001/21321
+21001/21321
+Time elapsed to read data: 1022
+comp=TT, dtype=Allstack_linear, datadir=/srv/beegfs/scratch/shares/cdff/DPM/Processing/STACK_no_bad_stations_chan_corrected, output_fname=/srv/beegfs/scratch/shares/cdff/DPM/Postprocessing/ncfs_Allstack_linear_TT.npz
+Number of files: 21321
+1/21321
+1001/21321
+2001/21321
+3001/21321
+4001/21321
+5001/21321
+6001/21321
+7001/21321
+8001/21321
+9001/21321
+10001/21321
+11001/21321
+12001/21321
+13001/21321
+14001/21321
+15001/21321
+16001/21321
+17001/21321
+18001/21321
+19001/21321
+20001/21321
+21001/21321
+Time elapsed to read data: 1019
+comp=ZR, dtype=Allstack_linear, datadir=/srv/beegfs/scratch/shares/cdff/DPM/Processing/STACK_no_bad_stations_chan_corrected, output_fname=/srv/beegfs/scratch/shares/cdff/DPM/Postprocessing/ncfs_Allstack_linear_ZR.npz
+Number of files: 21321
+1/21321
+1001/21321
+2001/21321
+3001/21321
+4001/21321
+5001/21321
+6001/21321
+7001/21321
+8001/21321
+9001/21321
+10001/21321
+11001/21321
+12001/21321
+13001/21321
+14001/21321
+15001/21321
+16001/21321
+17001/21321
+18001/21321
+19001/21321
+20001/21321
+21001/21321
+Time elapsed to read data: 1056
+comp=RZ, dtype=Allstack_linear, datadir=/srv/beegfs/scratch/shares/cdff/DPM/Processing/STACK_no_bad_stations_chan_corrected, output_fname=/srv/beegfs/scratch/shares/cdff/DPM/Postprocessing/ncfs_Allstack_linear_RZ.npz
+Number of files: 21321
+1/21321
+1001/21321
+2001/21321
+3001/21321
+4001/21321
+5001/21321
+6001/21321
+7001/21321
+8001/21321
+9001/21321
+10001/21321
+11001/21321
+12001/21321
+13001/21321
+14001/21321
+15001/21321
+16001/21321
+17001/21321
+18001/21321
+19001/21321
+20001/21321
+21001/21321
+Time elapsed to read data: 935

@@ -1,0 +1,2 @@
+make sure setup.py is in the NoisePy-ant-main directory and run the following command
+pip install -e .

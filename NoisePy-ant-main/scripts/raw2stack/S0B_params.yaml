@@ -1,0 +1,41 @@
+# absolute path for your project
+rootpath: '/srv/beegfs/scratch/shares/cdff/DPM'                           
+
+# dir where mseed/SAC files are located
+RAWDATA: '/srv/beegfs/scratch/shares/cdff/DPM/miniseed_corrected' 
+
+# dir where cleaned data in ASDF format are going to be outputted
+DATADIR: '/srv/beegfs/scratch/shares/cdff/DPM/Processing/h5_test' #CLEAN_DATA_H5_25sps_3c_netfix'
+
+# station info including network,station,channel,latitude,longitude,elevation
+locations: '/srv/beegfs/scratch/shares/cdff/DPM/NANT/coordinates_smartsolo2.csv'
+#locations: '/home/users/j/jiwanibr/Projects/02_Supreme1/NANT/NoisePy-ant-main/scripts/coordinates_smartsolo.csv'
+ #station_locations_noisepy_cleaned_NEZ.csv'
+
+# useful parameters for cleaning the data
+input_fmt: 'mseed'  # input file format between 'sac' and 'mseed' 
+samp_freq: 25     # targeted sampling ratesba 
+stationxml: False   # station.XML file exists or not
+rm_resp: 'no'        # select 'no' to not remove response and use 'inv','spectrum','RESP', or 'polozeros' to remove response
+respdir: '/srv/beegfs/scratch/shares/cdff/DPM/resp4' # directory where resp files are located (required if rm_resp is neither 'no' nor 'inv')
+freqmin: 0.1    # pre filtering frequency bandwidth
+freqmax: 12    # note this cannot exceed Nquist freq
+flag: True       # print intermediate variables and computing time
+
+# file containing the path+name for all sac/mseed files and its start-end time having this file saves a tons of time: see L95-126 for why
+wiki_file: '/srv/beegfs/scratch/shares/cdff/DPM/NANT/NoisePy-ant-main/scripts/raw2stack/allfiles_time3.csv'  #os.path.join(rootpath,'allfiles_time.csv') 
+
+allfiles_path: '/srv/beegfs/scratch/shares/cdff/DPM/miniseed_corrected/*.miniseed' # make sure all sac/mseed files can be found through this format
+messydata: True # set this to False when daily noise data directory is stored in sub-directory of Event_year_month_day 
+
+ncomp: 3
+
+# targeted time range # Dec 5 2020 to Jan 5 2021
+start_date: '2023_09_29_0_0_0'                                       # start date of local data
+end_date: '2023_10_25_0_0_0'                                       # end date of local data
+inc_hours: 8                                                          # sac/mseed file length for a continous recording
+
+# get rough estimate of memory needs to ensure it now below up in S1
+cc_len: 300                                                        # basic unit of data length for fft (s)
+step: 60                                                         # overlapping between each cc_len (s)
+MAX_MEM: 10.0 
